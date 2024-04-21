@@ -1,0 +1,24 @@
+{
+	"name": "Eventbasedtrigger",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "Tumblingbased_trigger",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "BlobEventsTrigger",
+		"typeProperties": {
+			"blobPathBeginsWith": "/eventsccon/blobs/",
+			"ignoreEmptyBlobs": true,
+			"scope": "/subscriptions/65c1e3e2-3a44-4e95-8cb0-f0db3e99cee7/resourceGroups/1243Resourcegroup/providers/Microsoft.Storage/storageAccounts/1243dineshsa",
+			"events": [
+				"Microsoft.Storage.BlobCreated"
+			]
+		}
+	}
+}

@@ -1,0 +1,17 @@
+{
+	"name": "ds_inputtables",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_Filesinsqltables",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "2017_Students_Batch"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
