@@ -1,0 +1,42 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "1243DineshADF"
+		},
+		"LS_ADLSGen2_accountKey": {
+			"value": ""
+		},
+		"LS_BlbSA_connectionString": {
+			"value": ""
+		},
+		"LS_FilesToSqlDB_connectionString": {
+			"value": ""
+		},
+		"LS_Filesinsqltables_connectionString": {
+			"value": ""
+		},
+		"LS_github_connectionString": {
+			"value": ""
+		},
+		"AzureBlobStoragekeyvault_properties_typeProperties_connectionString_secretName": {
+			"value": "Storage"
+		},
+		"LS_ADLSGen2_properties_typeProperties_url": {
+			"value": "https://sqltoadlsa.dfs.core.windows.net/"
+		},
+		"LS_Keyvault_properties_typeProperties_baseUrl": {
+			"value": "https://nareshkv1911.vault.azure.net/"
+		},
+		"LS_SQLKeyVault_properties_typeProperties_connectionString_secretName": {
+			"value": "SQLConnectionString"
+		},
+		"mykeyvault_properties_typeProperties_baseUrl": {
+			"value": "https://NareshKV1911.vault.azure.net/"
+		},
+		"Eventbasedtrigger_properties_typeProperties_scope": {
+			"value": "/subscriptions/65c1e3e2-3a44-4e95-8cb0-f0db3e99cee7/resourceGroups/1243Resourcegroup/providers/Microsoft.Storage/storageAccounts/1243dineshsa"
+		}
+	}
+}
